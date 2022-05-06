@@ -1,0 +1,13 @@
+.Filter {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding: 10px 0;
+}
+
+.Filter > label {
+  display: flex;
+  height: max-content;
+  align-items: flex-end;
+  font-size: 20px;
+}

@@ -1,0 +1,35 @@
+.List {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.Header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.Header > span {
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: bolder;
+  display: flex;
+}
+
+.Pagination {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.Pagination > button {
+  padding: 10px;
+  background-color: #8fff8f;
+  border: 1px solid #70f770;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  letter-spacing: 1px;
+}
+
+.Pagination > button:hover {
+  background-color: #8fff8f8a;
+  letter-spacing: 2px;
+}

@@ -1,0 +1,15 @@
+.Item {
+  width: 100%;
+  padding: 8.5px 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #ccffcc;
+  margin: 5px 0;
+  border: 1px solid #9cf79c;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.Item:hover {
+  background-color: #ccffcca1;
+}
